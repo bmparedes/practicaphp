@@ -1,0 +1,17 @@
+{
+    "name": "italomoralesf/text",
+    "autoload": {
+        "psr-4": {
+            "Text\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "require": {
+        "nesbot/carbon": "^2.41"
+    }
+}
