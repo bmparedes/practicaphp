@@ -1,19 +1,17 @@
 {
-    "name": "root/cursophp1",
-    "description": "Ejemplo composer",
-    "type": "library",
-    "require": {
-        "nesbot/carbon": "3.x-dev"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "9.5.x-dev"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "bmparedes",
-            "email": "bmparedes5@gmail.com"
+    "autoload": {
+        "files": 
+        [
+            "src/file1.php",
+            "src/file2.php"
+
+        ],
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "psr-4": {
+            "Text\\": "src/"
         }
-    ],
-    "minimum-stability": "dev"
+    }
 }
