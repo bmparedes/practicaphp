@@ -51,3 +51,11 @@ El autoload contiene:
 //para agregar composer a tu proyecto
 
     composer dump
+
+// Permite actualizar a composer como herramienta
+
+	composer self-update
+
+// Revisa si hay actualizaciones para las dependencias instaladas
+
+	composer update
